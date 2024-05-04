@@ -1,0 +1,36 @@
+{
+  "name": "api-gsheets",
+  "version": "1.0.0",
+  "description": "API para acesso a planilhas do google sheets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusPinheiro37/API-Google-Sheets.git"
+  },
+  "keywords": [
+    "API",
+    "Google",
+    "Sheets"
+  ],
+  "author": "Marcus Pinheiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcusPinheiro37/API-Google-Sheets/issues"
+  },
+  "homepage": "https://github.com/MarcusPinheiro37/API-Google-Sheets#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "googleapis": "^136.0.0",
+    "qs": "^6.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}
